@@ -43,23 +43,12 @@
 
     <TextView
         android:id="@+id/serverMessages"
-        android:layout_width="269dp"
-        android:layout_height="180dp"
+        android:layout_width="327dp"
+        android:layout_height="425dp"
         android:layout_marginStart="75dp"
         android:layout_marginEnd="67dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="50dp"
         android:text="Messages:"
-        app:layout_constraintBottom_toTopOf="@+id/filesReceived"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ListView
-        android:id="@+id/filesReceived"
-        android:layout_width="269dp"
-        android:layout_height="174dp"
-        android:layout_marginStart="75dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="85dp"
         app:layout_constraintBottom_toTopOf="@+id/saveBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
